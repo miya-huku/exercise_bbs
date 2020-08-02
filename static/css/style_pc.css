@@ -1,15 +1,31 @@
 @charset "UTF-8";
+
 html {
-	overflow-y: scroll; /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+	overflow-y: scroll;
+	/* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
 	/*Internet Explorerが独自に追加したプロパティ*/
 	/*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
 }
+
 /* リセットおまじない--------------------------------- */
 
-body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
 	margin: 0px;
 	padding: 0px;
 }
+
 body {
 	background: #fff;
 	text-align: center;
@@ -18,18 +34,22 @@ body {
 	min-width: 100%;
 	-webkit-text-size-adjust: 100%;
 }
+
 li {
 	list-style: none;
 }
+
 a {
 	outline: none;
 	color: inherit;
 	text-decoration: none;
 }
+
 img {
 	border: 0px;
 	vertical-align: bottom;
 }
+
 /* --------------------------------------------------- */
 
 body {
@@ -67,31 +87,37 @@ section {
 	text-align: center;
 	padding: 100px 0;
 }
+
 section h1 {
 	font-size: 40px;
 	line-height: 50px;
 	margin: 0 0 80px 0;
 	font-weight: 200;
 }
+
 .box {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 #sec1 {
 	background: url(../img/photo_01.png) no-repeat center center;
 	height: 400px;
 	background-size: cover;
 }
+
 #sec1 h1 {
 	font-size: 55px;
 	color: #fff;
 	padding: 200px 0 0 0;
 }
+
 #sec1 h1 br {
 	display: none;
 	/* スマートフォンとPCでは画面幅が違うので、PC用のレイアウトでいれた改行が */
 	/* スマートフォン用のレイアウトできれいに改行されるとは限らないので none で消す */
 }
+
 #sec2 .flex_area {
 	display: flex;
 	flex-wrap: wrap;
@@ -101,6 +127,7 @@ section h1 {
 	font-size: 20px;
 	margin: 0 0 20px 0;
 }
+
 #sec2 .flex_area div p {
 	font-size: 14px;
 	line-height: 1.8;
@@ -113,11 +140,13 @@ section h1 {
 	color: #fff;
 	background-attachment: fixed;
 }
+
 #sec3 p {
 	font-size: 16px;
 	line-height: 2;
 	margin-bottom: 16px;
 }
+
 #sec4 p {
 	font-size: 15px;
 	line-height: 2;
@@ -140,7 +169,7 @@ section h1 {
 	margin: 5px 0;
 }
 
-#sec4 .port .portfolio p.port_title{
+#sec4 .port .portfolio p.port_title {
 	text-align: center;
 	font-size: 18px;
 }
@@ -149,6 +178,7 @@ footer {
 	height: 80px;
 	background: #eeeaec;
 }
+
 footer .copyright {
 	color: #acacac;
 	font-size: 12px;
@@ -156,24 +186,24 @@ footer .copyright {
 	letter-spacing: 1px;
 }
 
-#sec2 .flex_area .flex_area_padding{
+#sec2 .flex_area .flex_area_padding {
 	padding: 20px;
 	width: 30%;
 }
 
-#sec4 .port p.port_margin{
-	margin-top:100px;
+#sec4 .port p.port_margin {
+	margin-top: 100px;
 	margin-left: 60px;
-	margin-right:60px;
+	margin-right: 60px;
 }
 
-.bbs_content{
-	border-bottom:1px solid #111;
-	width:60%;
-	margin:30px auto 0;
+.bbs_content {
+	border-bottom: 1px solid #111;
+	width: 60%;
+	margin: 30px auto 0;
 }
 
-#attention{
+#attention {
 	color: red;
 	font-weight: bold;
 	display: none;
@@ -192,3 +222,8 @@ footer .copyright {
 .bg-blue {
 	background: blue;
 } */
+
+.userinfo img {
+	width: 100px;
+	height: 100px;
+}
