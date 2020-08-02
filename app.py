@@ -216,6 +216,8 @@ def update_item():
         return redirect("/login")
 
 
+
+
 @app.route('/del' ,methods=["POST"])
 def del_task():
     # クッキーから user_id を取得
