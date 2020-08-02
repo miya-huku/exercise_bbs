@@ -1,0 +1,161 @@
+@charset "UTF-8";
+html {
+	overflow-y: scroll; /* IEへの対応 http://www.htmq.com/style/overflow-y.shtml */
+	/*Internet Explorerが独自に追加したプロパティ*/
+	/*画面に収まりきれなかったときにスクロールして表示することを許可するか否か*/
+}
+body, h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.4;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+li {
+	list-style: none;
+}
+a {
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	border: 0px;
+	vertical-align: bottom;
+}
+body {
+	font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+}
+
+/*ドロワー用でコメントアウト or 削除*/
+
+/*header {
+	position: fixed;
+	width: 100%;
+}
+header .hum_menu {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+header .hum_menu a {
+	display: block;
+	height: 20px;
+	padding: 10px 0;
+	width: 40px;
+	background: #eeeaec;
+	text-align: center;
+}
+header .hum_menu span {
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #aaa;
+	margin: 3px auto;
+}
+header ul {
+	display: none;
+	margin: 0 40px 0 0;
+}
+header ul li {
+	width: 50%;
+	color: #acacac;
+	line-height: 40px;
+	text-align: left;
+	font-size: 12px;
+	text-indent: 8px;
+}
+header ul li a {
+	display: block;
+	border: 1px solid #555;
+	border-width: 1px 1px 0 0;
+}
+header.open {
+	background: #eeeaec;
+}
+header.open ul {
+	display: flex;
+	flex-wrap: wrap;
+}*/
+footer {
+	height: 80px;
+	background: #eeeaec;
+}
+footer .copyright {
+	color: #acacac;
+	font-size: 12px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+}
+section {
+	padding: 50px 15px;
+	text-align: left;
+}
+section h1 {
+	font-size: 20px;
+	line-height: 35px;
+	margin: 0 0 40px 0;
+	font-weight: 200;
+}
+#sec1 {
+	background: url(../img/photo_01.png) no-repeat center center;
+	background-size: cover;
+}
+#sec1 h1 {
+	font-size: 30px;
+	color: #fff;
+}
+#sec2 .flex_area div {
+	text-align: left;
+}
+#sec2 .flex_area div h2 {
+	font-size: 14px;
+	margin: 30px 0 10px 0;
+}
+#sec2 .flex_area div p {
+	font-size: 12px;
+	line-height: 1.8;
+	margin-bottom: 14px;
+}
+#sec3 {
+	background: url(../img/photo_02.png) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+}
+
+#sec3 p {
+	font-size: 13px;
+	line-height: 2;
+	margin-bottom: 16px;
+}
+#sec3 p br {
+	display: none;
+}
+
+#sec4 .port .flex_reverse{
+	display: flex;
+	flex-direction: column-reverse; /*flexは様々な方向に並び替えが可能です*/
+}
+
+#sec4 p {
+	font-size: 12px;
+	line-height: 1.8;
+	margin-bottom: 55px;
+}
+#sec4 p br {
+	display: none;
+}
+
+#sec4 .port .portfolio img {
+	width: 100%;
+}
+
+#sec4 .port .port_title{
+	font-size:14px;
+	margin:10px 0;
+}
